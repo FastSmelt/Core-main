@@ -1,0 +1,8 @@
+name: core
+authors:
+  - NoSQL
+  - Staud
+version: ${pom.version}
+main: gg.pots.basics.bukkit.CoreSpigotPlugin
+depend:
+  - ProtocolLib

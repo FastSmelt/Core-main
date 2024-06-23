@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Bungee" />
+        <module name="Bukkit" />
+        <module name="Core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Basics" target="1.8" />
+      <module name="Bukkit" target="1.8" />
+      <module name="Bungee" target="1.8" />
+      <module name="core" target="1.5" />
+      <module name="Core" target="1.8" />
+      <module name="Friends" target="8" />
+      <module name="Website" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Basics" options="-parameters" />
+      <module name="Bukkit" options="-parameters" />
+      <module name="Bungee" options="-parameters" />
+      <module name="Core" options="-parameters" />
+      <module name="Friends" options="-parameters" />
+      <module name="Website" options="-parameters" />
+      <module name="basics" options="-parameters" />
+    </option>
+  </component>
+</project>

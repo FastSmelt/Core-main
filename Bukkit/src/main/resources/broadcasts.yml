@@ -1,0 +1,6 @@
+# Broadcasts Configuration
+# If you require assistance, please contact a developer.
+
+# Broadcasts
+broadcasts:
+  - "&fGreetings, you can see this &bmessage&f."

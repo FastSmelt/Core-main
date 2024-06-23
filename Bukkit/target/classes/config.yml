@@ -1,0 +1,11 @@
+# It is recommended to consult a developer for help if you do not know what you're doing
+database:
+  mongodb:
+    hostname: "127.0.0.1"
+    port: 27017
+    database: "core-main"
+  redis:
+    hostname: "127.0.0.1"
+    port: 6379
+server:
+  id: "dev-1"
